@@ -12,6 +12,12 @@ const Countries = () => {
     return (
         <div className='countries'>
             <h1>Countries</h1>
+            <ul>
+                {
+                    data.map((country, index) => (
+                    <li key={index}>{country.translations.fra.common}</li>
+                ))}
+            </ul>
         </div>
     );
 };

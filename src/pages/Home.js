@@ -1,14 +1,12 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import Logo from '../components/Logo';
+import Button from '../components/Button';
 
 
 const Home = () => {
 	return (
 		<div>
-			<Logo />
-			<Navigation />
-			<h1>Accueil</h1>
+			<Button />
 		</div>
 	);
 };

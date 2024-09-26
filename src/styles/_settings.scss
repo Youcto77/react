@@ -23,10 +23,11 @@ $white: rgb(243, 243, 243);
 }
 
 body {
-  background: $white;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Dégradé de bleu */
   font-family: $font-1;
   // @include verticalCenter;
 }
 li {
   list-style-type: none;
 }
+
