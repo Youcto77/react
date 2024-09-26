@@ -1,12 +1,19 @@
 import React from 'react';
-import Home from './pages/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Quizz from './pages/Quizz';
+import Home from './pages/Home'
+import Erreur from './pages/Erreur';
+
 
 const App = () => {
   return (
-    <div>
-        <h1>Quizz v3</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/quizz' element={<Quizz />} />
+        <Route path='*' element={<Erreur />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

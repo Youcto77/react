@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navigation from '../components/Navigation';
+import Logo from '../components/Logo';
 
-const App = () => {
-  return (
-	<div>
-		<h1>Accueil</h1>
-		<br />
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio sit magni expedita quam quasi esse eveniet facilis possimus, assumenda numquam cum, aut, vel ipsum culpa veniam repellat impedit adipisci atque at? Veritatis consectetur nam tenetur dicta voluptatum, doloribus ipsam. Blanditiis officiis consectetur, voluptatem eveniet velit dolores nisi ratione. Enim, corrupti, beatae fuga perspiciatis corporis nam placeat itaque harum illo at incidunt. Nam voluptate dolorem, fuga praesentium molestiae consequuntur iste natus dolor vitae quisquam aliquid consequatur nesciunt nisi iure impedit eos atque sed ex nemo ad nulla distinctio? Vero eum deleniti optio labore quas? Reprehenderit molestias aspernatur ab nihil non animi amet ratione dicta, ut ex exercitationem veniam temporibus aliquam praesentium atque deserunt iure, fuga rerum saepe corporis laudantium, cumque ipsum. Ducimus sequi beatae possimus nihil. Fugit, nihil? Eos totam, nisi aliquam quia similique quod, quasi blanditiis reprehenderit doloremque ipsa ex velit enim a sit, quam dolorem. Omnis dolorum, illo mollitia nisi possimus aperiam maiores dignissimos numquam in rerum saepe beatae quis ad sit molestias provident! Ipsa doloribus adipisci sed maiores optio ducimus, cumque hic ab iure? Voluptates laborum beatae corporis praesentium, maxime iusto quasi fugiat consequuntur fugit, provident ipsum eligendi doloribus tenetur aliquid aperiam sequi magni inventore architecto quia expedita, labore placeat excepturi? Commodi autem corrupti deleniti dolore enim quas cumque molestiae dolorum est tempore nemo aperiam dolor vero magni blanditiis quidem, fugit at repellendus. Veniam obcaecati, tempore reprehenderit blanditiis error eum laborum magnam quisquam debitis doloribus id repellat at dolorem neque, eius quasi tempora architecto numquam totam facere maiores natus in mollitia! Dolor maxime adipisci deserunt dicta in quidem consequuntur exercitationem labore quasi ducimus debitis facilis, corrupti voluptas quaerat tenetur enim, cumque veritatis optio? Quaerat corrupti animi assumenda cumque voluptatem distinctio sint exercitationem numquam accusantium ab molestias unde ipsa optio, maxime voluptates voluptatum ex doloribus dignissimos quidem dicta asperiores quas officia. Nostrum odit esse unde obcaecati, autem eos commodi distinctio blanditiis dolor veniam ullam sequi temporibus perspiciatis. Molestiae sint dolore earum ad excepturi quis laborum provident inventore ex consectetur! Tempore dolor similique itaque enim officia alias consequatur reiciendis beatae minus facilis necessitatibus, ipsa inventore saepe placeat dignissimos voluptates ratione esse. Dolore dolores, sed nam omnis atque nulla doloribus autem consectetur repudiandae soluta eveniet excepturi porro sunt dignissimos facilis alias repellendus. Iure cum reprehenderit, distinctio cupiditate similique dolores nihil quam doloribus voluptatem repudiandae adipisci veritatis eligendi sapiente eius consectetur alias facere provident deleniti velit sunt. Nihil possimus repellendus quos.
-		</p>
-	</div>
-  );
+
+const Home = () => {
+	return (
+		<div>
+			<Logo />
+			<Navigation />
+			<h1>Accueil</h1>
+		</div>
+	);
 };
 
-export default App;
+export default Home;
